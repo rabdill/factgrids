@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+		<title>U.S. Presidents | FactGrids</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	
+		<script src="isotope.js"></script>
+		<script src="simpleflip.js"></script>
+		<link rel="stylesheet" href="abdill.css" />
+	</head>
+
+	<body onLoad="contentMorph('all');">	<!--	loads the default card details	-->
+		<script>
+		$( function() {
+		  // init Isotope
+		  var $container = $('.isotope').isotope({
+			itemSelector: '.element-item',
+			layoutMode: 'fitRows'
+		  });
+		  // filter functions
+	
+		  // bind filter button click
+		  $('#filters').on( 'click', 'button', function() {
+			var filterValue = $( this ).attr('data-filter');
+			$container.isotope({ filter: filterValue });
+		  });
+		  // change is-checked class on buttons
+		  $('.button-group').each( function( i, buttonGroup ) {
+			var $buttonGroup = $( buttonGroup );
+			$buttonGroup.on( 'click', 'button', function() {
+			  $buttonGroup.find('.is-checked').removeClass('is-checked');
+			  $( this ).addClass('is-checked');
+			});
+		  });
+		  
+		});
+		
+		</script>
+		
+		
+
+
+
+	<h1>FactGrid: U.S. Presidents</h1>
+		<div id="filters" class="button-group">
+			<div class="button-group">
+				<button class="button is-checked" data-filter="*" onclick="contentMorph('all')">show all</button>
+				<button class="button" data-filter="none">show none</button>
+			</div>
+			<div class="button-group">
+				<button class="button" data-filter=".dem" onclick="contentMorph('dem')">Democrat</button>
+				<button class="button" data-filter=".rep" onclick="contentMorph('rep')">Republican</button>
+				<button class="button" data-filter=".other" onclick="contentMorph('other')">Other party</button>
+			</div>
+			<div class="button-group">
+				<button class="button" data-filter=".reelected" onclick="contentMorph('reelected')">Elected to second term</button>
+				<button class="button" data-filter=".lost" onclick="contentMorph('lost')">Lost reelection bid</button>
+			</div>
+			<div class="button-group">
+				<button class="button" data-filter=".shot" onclick="contentMorph('shot')">Got shot</button>
+				<button class="button" data-filter=".died" onclick="contentMorph('died')">Died in office</button>
+				<button class="button" data-filter=".war" onclick="contentMorph('war')">Lead a war</button>
+			</div>
+		</div>
+
+<div class="isotope">
+
+
+	<div class="element-item ind unflipped shot" id="gwashington"  onclick="changeCssClass('gwashington')">
+		<div class="front">
+			<p class="name">George Washington</p>
+			<img class="portrait" src="img/gwashington.jpg">
+			<p class="range">1789&ndash;1797</p>
+			<p class="number">1</p>
+		</div>
+		<div class="back" id="gwashington-back">
+		</div>
+	</div>
+
+	
+	<div class="element-item fed unflipped" id="jadams"  onclick="changeCssClass('jadams')">
+		<div class="front">
+			<p class="name">John Adams</p>
+			<img class="portrait" src="img/jadams.jpg">
+			<p class="range">1797&ndash;1801</p>
+			<p class="number">2</p>
+		</div>
+		<div class="back" id="jadams-back">
+		</div>
+	</div>
+  
+</div>
+
+</body>
+</html>
