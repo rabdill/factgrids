@@ -57,5 +57,6 @@ function fillBackNames()
 	{
 		document.getElementById('gwashington-back').innerHTML = "<p class='name'>George Washington</p>";
 		document.getElementById('jadams-back').innerHTML = "<p class='name'>John Adams</p>";
+		document.getElementById('ajackson-back').innerHTML = "<p class='name'>Andrew Jackson</p>";
 
 	}
