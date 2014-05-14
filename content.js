@@ -23,7 +23,8 @@ function contentMorph(category)
 		
 		if(category == 'all')	{
 			document.getElementById('gwashington-back').innerHTML +=		"The only president to be elected by a unanimous vote of the electoral college.";
-			document.getElementById('jadams-back').innerHTML += 			"The first president to live in what is now known as the White House.";
+			document.getElementById('jadams-back').innerHTML += 				"The first president to live in what is now known as the White House.";
+			document.getElementById('bharrison-back').innerHTML +=			"The first president to <a href='https://www.youtube.com/watch?v=u1ykiZk4fE8'>have his voice recorded</a>."
 		}
 		
 		if (category == 'dem')	{
