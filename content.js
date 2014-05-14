@@ -23,27 +23,27 @@ function contentMorph(category)
 		
 		if(category == 'all')	{
 			document.getElementById('gwashington-back').innerHTML +=		"The only president to be elected by a unanimous vote of the electoral college.";
-			document.getElementById('jadams-back').innerHTML += 				"The first president to live in what is now known as the White House.";
+			document.getElementById('jadams-back').innerHTML += 			"The first president to live in what is now known as the White House.";
+			document.getElementById('ajackson-back').innerHTML +=			"Against the national bank, in favor of states' rights and the forceful relocation of Native Americans."
 			document.getElementById('bharrison-back').innerHTML +=			"The first president to <a href='https://www.youtube.com/watch?v=u1ykiZk4fE8'>have his voice recorded</a>."
 		}
 		
 		if (category == 'dem')	{
-			document.getElementById('gwashington-back').innerHTML = "He was shot by a horsie named Mel.";
+		
 		}
 		
 		if (category == 'rep')	{
-			document.getElementById('gwashington-back').innerHTML = "He was shot by a horsie named Mel.";
+		
 		
 		}
 		
 		if (category == 'other')	{
-			document.getElementById('gwashington-back').innerHTML = "He was shot by a horsie named Mel.";
+		
 		
 		}
 		
 		if (category == 'shot')	{
-			document.getElementById('gwashington-back').innerHTML += "He was shot by a horsie named Mel.";
-		
+			document.getElementById('ajackson-back').innerHTML += "Shot multiple times prior to being elected, and almost shot in a failed assassination attempt.";
 		}
 		
 		if (category == 'war')	{
