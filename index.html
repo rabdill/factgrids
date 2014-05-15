@@ -64,7 +64,8 @@
 				<button class="button" data-filter=".impeached" onclick="contentMorph('impeached')">Impeached</button>
 			</div>
 			<div class="button-group">
-				<button class="button" data-filter=".war" onclick="contentMorph('war')">Military vet</button>
+				<button class="button" data-filter=".related" onclick="contentMorph('related')">Direct relation to another president</button>
+				<button class="button" data-filter=".vet" onclick="contentMorph('vet')">Military vet</button>
 				<button class="button" data-filter=".war" onclick="contentMorph('war')">War during presidency</button>
 			</div>
 		</div>
@@ -72,7 +73,7 @@
 <div class="isotope">
 
 
-	<div class="element-item ind other unflipped reelected" id="gwashington"  onclick="changeCssClass('gwashington')">
+	<div class="element-item ind other unflipped reelected vet" id="gwashington"  onclick="changeCssClass('gwashington')">
 		<div class="front">
 			<p class="name">George Washington</p>
 			<img class="portrait" src="img/gwashington.jpg">
@@ -84,7 +85,7 @@
 	</div>
 
 	
-	<div class="element-item fed other unflipped lost" id="jadams"  onclick="changeCssClass('jadams')">
+	<div class="element-item fed other unflipped lost war related" id="jadams"  onclick="changeCssClass('jadams')">
 		<div class="front">
 			<p class="name">John Adams</p>
 			<img class="portrait" src="img/jadams.jpg">
@@ -95,7 +96,7 @@
 		</div>
 	</div>
 	
-	<div class="element-item dem-rep other unflipped reelected" id="tjefferson"  onclick="changeCssClass('tjefferson')">
+	<div class="element-item dem-rep other unflipped reelected war" id="tjefferson"  onclick="changeCssClass('tjefferson')">
 		<div class="front">
 			<p class="name">Thomas Jefferson</p>
 			<img class="portrait" src="img/tjefferson.jpg">
@@ -106,7 +107,7 @@
 		</div>
 	</div>
 	
-	<div class="element-item dem-rep other unflipped reelected" id="jmadison"  onclick="changeCssClass('jmadison')">
+	<div class="element-item dem-rep other unflipped reelected war" id="jmadison"  onclick="changeCssClass('jmadison')">
 		<div class="front">
 			<p class="name">James Madison</p>
 			<img class="portrait" src="img/jmadison.jpg">
@@ -117,7 +118,7 @@
 		</div>
 	</div>
 	
-	<div class="element-item dem-rep other unflipped reelected" id="jmonroe"  onclick="changeCssClass('jmonroe')">
+	<div class="element-item dem-rep other unflipped reelected shot vet war" id="jmonroe"  onclick="changeCssClass('jmonroe')">
 		<div class="front">
 			<p class="name">James Monroe</p>
 			<img class="portrait" src="img/jmonroe.jpg">
@@ -128,7 +129,7 @@
 		</div>
 	</div>
 	
-	<div class="element-item dem-rep other unflipped lost" id="jqadams"  onclick="changeCssClass('jqadams')">
+	<div class="element-item dem-rep other unflipped lost related" id="jqadams"  onclick="changeCssClass('jqadams')">
 		<div class="front">
 			<p class="name">John Quincy Adams</p>
 			<img class="portrait" src="img/jqadams.jpg">
@@ -139,7 +140,7 @@
 		</div>
 	</div>
 	
-	<div class="element-item dem unflipped reelected shot" id="ajackson"  onclick="changeCssClass('ajackson')">
+	<div class="element-item dem unflipped reelected shot vet war" id="ajackson"  onclick="changeCssClass('ajackson')">
 		<div class="front">
 			<p class="name">Andrew Jackson</p>
 			<img class="portrait" src="img/ajackson.jpg">
@@ -150,7 +151,7 @@
 		</div>
 	</div>
 	
-	<div class="element-item dem unflipped lost" id="mvanburen"  onclick="changeCssClass('mvanburen')">
+	<div class="element-item dem unflipped lost war" id="mvanburen"  onclick="changeCssClass('mvanburen')">
 		<div class="front">
 			<p class="name">Martin Van Buren</p>
 			<img class="portrait" src="img/mvanburen.jpg">
@@ -161,7 +162,7 @@
 		</div>
 	</div>
 	
-	<div class="element-item whig other unflipped died" id="wharrison"  onclick="changeCssClass('wharrison')">
+	<div class="element-item whig other unflipped died related" id="wharrison"  onclick="changeCssClass('wharrison')">
 		<div class="front">
 			<p class="name">William Henry Harrison</p>
 			<img class="portrait" src="img/wharrison.jpg">
@@ -315,7 +316,7 @@
 		</div>
 	</div>
 	
-	<div class="element-item rep unflipped lost" id="bharrison"  onclick="changeCssClass('bharrison')">
+	<div class="element-item rep unflipped lost related" id="bharrison"  onclick="changeCssClass('bharrison')">
 		<div class="front">
 			<p class="name">Benjamin Harrison</p>
 			<img class="portrait" src="img/bharrison.jpg">
@@ -502,7 +503,7 @@
 		</div>
 	</div>
 	
-	<div class="element-item rep unflipped lost" id="ghwbush"  onclick="changeCssClass('ghwbush')">
+	<div class="element-item rep unflipped lost related" id="ghwbush"  onclick="changeCssClass('ghwbush')">
 		<div class="front">
 			<p class="name">George H.W. Bush</p>
 			<img class="portrait" src="img/ghwbush.jpg">
@@ -524,7 +525,7 @@
 		</div>
 	</div>
 	
-	<div class="element-item rep unflipped reelected" id="gwbush"  onclick="changeCssClass('gwbush')">
+	<div class="element-item rep unflipped reelected related" id="gwbush"  onclick="changeCssClass('gwbush')">
 		<div class="front">
 			<p class="name">George W. Bush</p>
 			<img class="portrait" src="img/gwbush.jpg">
