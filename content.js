@@ -23,12 +23,94 @@ function contentMorph(category)
 		
 		if(category == 'all')	{
 			document.getElementById('gwashington-back').innerHTML +=		"The only president to be elected by a unanimous vote of the electoral college.";
-			document.getElementById('jadams-back').innerHTML += 			"The first president to live in what is now known as the White House.";
-			document.getElementById('ajackson-back').innerHTML +=			"Against the national bank, in favor of states' rights and the forceful relocation of Native Americans."
-			document.getElementById('bharrison-back').innerHTML +=			"The first president to <a href='https://www.youtube.com/watch?v=u1ykiZk4fE8'>have his voice recorded</a>."
+			document.getElementById('jadams-back').innerHTML += 				"The first president to live in what is now known as the White House.";
+			document.getElementById('tjefferson-back').innerHTML = 				"";
+			document.getElementById('jmadison-back').innerHTML +=			"";
+			document.getElementById('jmonroe-back').innerHTML += 				"";
+			document.getElementById('jqadams-back').innerHTML += 			"";
+			document.getElementById('ajackson-back').innerHTML +=			"Against the national bank, in favor of states' rights and the forceful relocation of Native Americans.";
+			document.getElementById('mvanburen-back').innerHTML += 			"";
+			document.getElementById('wharrison-back').innerHTML += 			"";
+			document.getElementById('jtyler-back').innerHTML += 					"";
+			document.getElementById('jpolk-back').innerHTML += 					"";
+			document.getElementById('ztaylor-back').innerHTML += 				"";
+			document.getElementById('mfillmore-back').innerHTML += 			"";
+			document.getElementById('fpierce-back').innerHTML += 				"";
+			document.getElementById('jbuchanan-back').innerHTML += 			"";
+			document.getElementById('alincoln-back').innerHTML += 				"";
+			document.getElementById('ajohnson-back').innerHTML += 			"";
+			document.getElementById('ugrant-back').innerHTML += 				"";
+			document.getElementById('rhayes-back').innerHTML += 				"";
+			document.getElementById('jgarfield-back').innerHTML += 				"";
+			document.getElementById('carthur-back').innerHTML += 				"";
+			document.getElementById('gcleveland-back').innerHTML += 			"";
+			document.getElementById('bharrison-back').innerHTML +=			"The first president to <a href='https://www.youtube.com/watch?v=u1ykiZk4fE8'>have his voice recorded</a>.";
+			document.getElementById('wmckinley-back').innerHTML += 			"";
+			document.getElementById('troosevelt-back').innerHTML += 			"";
+			document.getElementById('wtaft-back').innerHTML += 					"";
+			document.getElementById('wwilson-back').innerHTML += 				"";
+			document.getElementById('wharding-back').innerHTML += 			"";
+			document.getElementById('ccoolidge-back').innerHTML += 			"";
+			document.getElementById('hhoover-back').innerHTML += 				"";
+			document.getElementById('froosevelt-back').innerHTML += 			"";
+			document.getElementById('htruman-back').innerHTML += 			"";
+			document.getElementById('deisenhower-back').innerHTML += 		"";
+			document.getElementById('jkennedy-back').innerHTML += 			"";
+			document.getElementById('ljohnson-back').innerHTML += 			"";
+			document.getElementById('rnixon-back').innerHTML += 				"";
+			document.getElementById('gford-back').innerHTML += 					"";
+			document.getElementById('jcarter-back').innerHTML += 				"";
+			document.getElementById('rreagan-back').innerHTML += 				"";
+			document.getElementById('ghwbush-back').innerHTML += 			"";
+			document.getElementById('wclinton-back').innerHTML += 			"";
+			document.getElementById('gwbush-back').innerHTML += 				"";
+			document.getElementById('bobama-back').innerHTML += 				"";
 		}
 		
 		if (category == 'dem')	{
+		document.getElementById('gwashington-back').innerHTML +=			"";
+			document.getElementById('jadams-back').innerHTML += 				"";
+			document.getElementById('tjefferson-back').innerHTML = 				"";
+			document.getElementById('jmadison-back').innerHTML +=			"";
+			document.getElementById('jmonroe-back').innerHTML += 				"";
+			document.getElementById('jqadams-back').innerHTML += 			"";
+			document.getElementById('ajackson-back').innerHTML +=			"";
+			document.getElementById('mvanburen-back').innerHTML += 			"";
+			document.getElementById('wharrison-back').innerHTML += 			"";
+			document.getElementById('jtyler-back').innerHTML += 					"";
+			document.getElementById('jpolk-back').innerHTML += 					"";
+			document.getElementById('ztaylor-back').innerHTML += 				"";
+			document.getElementById('mfillmore-back').innerHTML += 			"";
+			document.getElementById('fpierce-back').innerHTML += 				"";
+			document.getElementById('jbuchanan-back').innerHTML += 			"";
+			document.getElementById('alincoln-back').innerHTML += 				"";
+			document.getElementById('ajohnson-back').innerHTML += 			"";
+			document.getElementById('ugrant-back').innerHTML += 				"";
+			document.getElementById('rhayes-back').innerHTML += 				"";
+			document.getElementById('jgarfield-back').innerHTML += 				"";
+			document.getElementById('carthur-back').innerHTML += 				"";
+			document.getElementById('gcleveland-back').innerHTML += 			"";
+			document.getElementById('bharrison-back').innerHTML +=			"";
+			document.getElementById('wmckinley-back').innerHTML += 			"";
+			document.getElementById('troosevelt-back').innerHTML += 			"";
+			document.getElementById('wtaft-back').innerHTML += 					"";
+			document.getElementById('wwilson-back').innerHTML += 				"";
+			document.getElementById('wharding-back').innerHTML += 			"";
+			document.getElementById('ccoolidge-back').innerHTML += 			"";
+			document.getElementById('hhoover-back').innerHTML += 				"";
+			document.getElementById('froosevelt-back').innerHTML += 			"";
+			document.getElementById('htruman-back').innerHTML += 			"";
+			document.getElementById('deisenhower-back').innerHTML += 		"";
+			document.getElementById('jkennedy-back').innerHTML += 			"";
+			document.getElementById('ljohnson-back').innerHTML += 			"";
+			document.getElementById('rnixon-back').innerHTML += 				"";
+			document.getElementById('gford-back').innerHTML += 					"";
+			document.getElementById('jcarter-back').innerHTML += 				"";
+			document.getElementById('rreagan-back').innerHTML += 				"";
+			document.getElementById('ghwbush-back').innerHTML += 			"";
+			document.getElementById('wclinton-back').innerHTML += 			"";
+			document.getElementById('gwbush-back').innerHTML += 				"";
+			document.getElementById('bobama-back').innerHTML += 				"";
 		
 		}
 		
@@ -47,7 +129,7 @@ function contentMorph(category)
 		}
 		
 		if (category == 'war')	{
-			document.getElementById('jadams-back').innerHTML = "Quasi-War";
+			document.getElementById('jadams-back').innerHTML += "Quasi-War";
 		
 		}
 		
@@ -97,6 +179,6 @@ function fillBackNames()
 		document.getElementById('ghwbush-back').innerHTML = "<p class='name'>George H.W. Bush</p>";
 		document.getElementById('wclinton-back').innerHTML = "<p class='name'>Bill Clinton</p>";
 		document.getElementById('gwbush-back').innerHTML = "<p class='name'>George W. Bush</p>";
-		document.getElementById('bobama-back').innerHTML = "<p class='name'>Barack Obama</p>";a
+		document.getElementById('bobama-back').innerHTML = "<p class='name'>Barack Obama</p>";
 
 	}
