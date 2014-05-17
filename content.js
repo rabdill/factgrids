@@ -139,7 +139,7 @@ function contentMorph(category)
 			document.getElementById('wharrison-back').innerHTML += "Grandfather of Benjamin Harrison, who was in office for considerably longer.";
 			document.getElementById('bharrison-back').innerHTML += "Grandson of William H. Harrison, the shortest-serving president.";
 			document.getElementById('ghwbush-back').innerHTML += "Father of the 43rd president, George W. Bush, who was also a military pilot.";
-			document.getElementById('jadams-back').innerHTML += "Son of the 41st president, George H.W. Bush.";
+			document.getElementById('gwbush-back').innerHTML += "Son of the 41st president, George H.W. Bush.";
 		
 		}
 		
