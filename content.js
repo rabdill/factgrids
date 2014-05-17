@@ -133,6 +133,17 @@ function contentMorph(category)
 		
 		}
 		
+		if (category == 'related')	{
+			document.getElementById('jadams-back').innerHTML += "Father of the seventh president, John Q. Adams. (insert TJ quote here)";
+			document.getElementById('jqadams-back').innerHTML += "Son of the second president, John Adams. Had better teeth.";
+			document.getElementById('wharrison-back').innerHTML += "Grandfather of Benjamin Harrison, who was in office for considerably longer.";
+			document.getElementById('bharrison-back').innerHTML += "Grandson of William H. Harrison, the shortest-serving president.";
+			document.getElementById('ghwbush-back').innerHTML += "Father of the 43rd president, George W. Bush, who was also a military pilot.";
+			document.getElementById('jadams-back').innerHTML += "Son of the 41st president, George H.W. Bush.";
+		
+		}
+		
+		
 	}
 
 function fillBackNames()
