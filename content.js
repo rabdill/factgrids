@@ -31,17 +31,17 @@ function contentMorph(category)
 			document.getElementById('ajackson-back').innerHTML +=			"Against the national bank, in favor of states' rights and the forceful relocation of Native Americans.";
 			document.getElementById('mvanburen-back').innerHTML += 			"";
 			document.getElementById('wharrison-back').innerHTML += 			"";
-			document.getElementById('jtyler-back').innerHTML += 					"";
+			document.getElementById('jtyler-back').innerHTML += 					"Supported the Confederacy when the Civil War broke out, and was elected to the Confederate House of Representatives.";
 			document.getElementById('jpolk-back').innerHTML += 					"";
-			document.getElementById('ztaylor-back').innerHTML += 				"";
+			document.getElementById('ztaylor-back').innerHTML += 				"The last president to own slaves while in office.";
 			document.getElementById('mfillmore-back').innerHTML += 			"";
-			document.getElementById('fpierce-back').innerHTML += 				"";
-			document.getElementById('jbuchanan-back').innerHTML += 			"";
+			document.getElementById('fpierce-back').innerHTML += 				"Wasn't nominated at the Democratic Convention until the 49th round of voting.";
+			document.getElementById('jbuchanan-back').innerHTML += 			"The only president from Pennsylvania, and the only one never to marry&mdash;some theorize he was secretly gay. Before becoming president, he turned down an offer for a seat on the Supreme Court.";
 			document.getElementById('alincoln-back').innerHTML += 				"";
-			document.getElementById('ajohnson-back').innerHTML += 			"";
+			document.getElementById('ajohnson-back').innerHTML += 			"May have been drunk at his vice-presidential inauguration. Became president upon Lincoln's assassination six weeks later. Opposed the 14th Amendment.";
 			document.getElementById('ugrant-back').innerHTML += 				"";
-			document.getElementById('rhayes-back').innerHTML += 				"";
-			document.getElementById('jgarfield-back').innerHTML += 				"";
+			document.getElementById('rhayes-back').innerHTML += 				"The political maneuverings performed to conclude his election resulted in <a href='https://en.wikipedia.org/wiki/Compromise_of_1877'>the effective end of Reconstruction</a>.";
+			document.getElementById('jgarfield-back').innerHTML += 				"President for only 200 days.";
 			document.getElementById('carthur-back').innerHTML += 				"";
 			document.getElementById('gcleveland-back').innerHTML += 			"";
 			document.getElementById('bharrison-back').innerHTML +=			"The first president to <a href='https://www.youtube.com/watch?v=u1ykiZk4fE8'>have his voice recorded</a>.";
@@ -126,10 +126,13 @@ function contentMorph(category)
 		
 		if (category == 'shot')	{
 			document.getElementById('ajackson-back').innerHTML += "Shot multiple times prior to being elected, and almost shot in a failed assassination attempt.";
+			document.getElementById('jgarfield-back').innerHTML += "Shot in his first year as president. Alexander Graham Bell invented a metal detctor to find the bullet, but Garfield's doctor restricted its use. He died of infection."
 		}
 		
 		if (category == 'war')	{
 			document.getElementById('jadams-back').innerHTML += "Quasi-War";
+			document.getElementById('ugrant-back').innerHTML += "Great Sioux War.";
+			document.getElementById('bharrison-back').innerHTML += "Sioux Wars";
 		
 		}
 		
